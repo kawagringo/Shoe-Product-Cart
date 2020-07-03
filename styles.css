@@ -206,7 +206,7 @@ footer {
 }
 
 .web-developer {
-    color: #232323;
+    color: rgb(131, 124, 124);
     padding-top: 4rem;
 }
 
@@ -215,6 +215,7 @@ footer {
 }
 
 .web-developer a {
+    margin-left: .5rem;
     color: #fff;
     font-size: 1.2rem;
     text-decoration: none;
@@ -222,8 +223,8 @@ footer {
 
 .web-developer i {
     margin-left: 1.5rem;
-    color: #232323;
-    font-size: 2rem;
+    color: rgb(131, 124, 124);
+    font-size: 1.6rem;
     opacity: 0;
     animation: spin 1s forwards;
     animation-delay: 1.5s;
@@ -233,6 +234,27 @@ footer {
 .web-developer a:focus {
     color: #ff563c;
     transition: color .5s;
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .container .card{
+        
+    }
+    .web-developer p,
+    .web-developer a {
+        font-size: 0.9rem;
+    }
+
+    .web-developer i {
+        padding-top: .6rem;
+        font-size: 1rem;
+    }
+
+
+
+
 
 }
 
